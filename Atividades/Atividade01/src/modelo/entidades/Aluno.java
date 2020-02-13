@@ -1,18 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package modelo.intedades;
+package modelo.entidades;
 
-/**
- *
- * @author 19214290020
- */
+import java.io.Serializable;
+
 public class Aluno implements Serializable{
     private int id;
     private int matricula;
-    private String name;
+    private String  nome;
 
     public int getId() {
         return id;
@@ -30,12 +23,12 @@ public class Aluno implements Serializable{
         this.matricula = matricula;
     }
 
-    public String getName() {
-        return name;
+    public String getNome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
     
 }
