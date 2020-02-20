@@ -10,9 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Minha Aplicação Web</title>
-        <p>Você está acessando uma página HTML.</p>
+        <link rel="stylesheet" href="estilo.css"/>
     </head>
     <body>
         <h1>Seja bem-vindo!</h1>
+        <p>Você está acessando uma página HTML.</p>
     </body>
 </html>
